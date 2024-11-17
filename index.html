@@ -15,13 +15,18 @@
     <title>JS Game</title>
 </head>
 
-<body>
+<body class="flex">
+    <div class="flex m-3">
+        <h1 id="horas" >teste</h1>
+        <h1>:</h1>
+        <h1 id="minutos">minutos</h1>
+    </div>
+    
     <audio id="winSound" src="/logica-js-aula_4/img/HINO_DO_VASCO__VERSAO_EXTENDIDA__-_ESTOURADO_[_YouConvert.net_].mp3" preload="auto"></audio>
     <div class="container">
         <div class="container__conteudo">
             <img src="./img/robot.png" alt="robô mergulhador" class="container__imagem-robo" />
             <div class="container__informacoes">
-
                 <form >
                     <input id="guess" class="p-3 text-black placeholder:stroke-blue-300" type="text" placeholder="Seu chute" required>
                     <button class="bg-blue-500 p-3" type="submit">Chutar</button>
@@ -37,5 +42,4 @@
     </div>
  <script src="app.js" defer></script>
 </body>
-
 </html>
